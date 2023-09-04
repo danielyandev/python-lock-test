@@ -8,7 +8,7 @@ load_dotenv()
 
 
 def get_lock_flag():
-    return os.getenv('LOCK_FILE') in ['true', 'True', '1']
+    return os.getenv('LOCK_FILE', 'false').lower() in ['true', '1']
 
 
 if __name__ == '__main__':

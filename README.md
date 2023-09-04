@@ -20,10 +20,19 @@ git clone git@github.com:danielyandev/python-lock-test.git
 pip install -r requirements.txt
 ```
 
-### Prepare .env file
+### Prepare environment
+
+Prepare .env file
 
 ```
 cp .env.example .env
+```
+
+Prepare counter files
+
+```
+cp counter.txt.example counter1.txt
+cp counter.txt.example counter2.txt
 ```
 
 Set LOCK_FILE variable in .env file one of these values:
