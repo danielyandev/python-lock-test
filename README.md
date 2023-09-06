@@ -35,7 +35,7 @@ cp counter.txt.example counter1.txt
 cp counter.txt.example counter2.txt
 ```
 
-Set LOCK_FILE variable in .env file one of these values:
+Set USE_FILE_LOCK variable in .env file one of these values:
 {true, 1} to use file locking, otherwise operations with file
 will be performed without locking
 
